@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports IIT Mandi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/jpg" href="./assets/static/iitmandi_logo.png">
+
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container-fluid" style="margin-left: 0%; margin-top: 0%;">
+      <div class="logo">
+        <a href="https://www.iitmandi.ac.in/"><img src="assets\static\logo.png" alt="logo"></a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#council">Council</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i class="bi bi-list"></i>
+      </span>
+    </div>
+  </nav>
+
+
+  <div class="slideshow-container carousel slide" data-autoplay="true">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="assets\static\Carousel_1.png" style="width:100%">
+      <div class="text">Badminton Court</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="./assets/static/Carousel_2.png" style="width:100%">
+      <div class="text">FootBall Ground</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="assets\static\Carousel_3.jpg" style="width:100%">
+      <div class="text">Athletic Track</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="assets\static\Carousel_4.png" style="width:100%">
+      <div class="text">Table Tennis Court</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="assets\static\Carousel_5.png" style="width:100%">
+      <div class="text">Cricket Ground</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <div class="container" id="about-us">
+    <br>
+    <div class="row">
+      <div class="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
+        <div class="btm">
+          IIT Mandi has a sports council to coordinate all the sports activities and lays special attention on players
+          by providing them with well-experienced coaches and adequate facilities. Sportsmen are trained to participate
+          in various tournaments like Inter-IIT, Sangram, and other tournaments. IIT
+          Mandi has participated in the Inter-IIT sports tournament since 2010 and has won medals in team games i.e.
+          bronze in TT and in Cricket and 7 medals in individual Athletics events. It also organizes the annual sports
+          fest of IIT Mandi- Rann-Neeti.
+        </div>
+      </div>
+      <div class="col-md-6 p-0 text-center order-1 order-sm-2">
+        <img src="assets\static\Carousel_5.png" class="w-100" alt="">
+      </div>
+
+      <div class="col-md-6 p-0 text-center">
+        <img src="assets\static\Carousel_2.png" class="w-100 " alt="">
+      </div>
+
+      <div class="col-md-6 p-4 p-sm-5">
+        <div class="he1"> ABOUT US </div>
+        <div class="he2">Scaling The Heights</div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid sports-cards" id="facilities">
+    <h1 class="sports-heading">Facilities</h1>
+    <div class="row cards-list .flex-{grow|shrink}-0">
+      <div class="col-1 col-sm-2 col-md-4 card 1">
+        <div class="card_image"> <a href="./Sports/Cricket.html"><img src="assets/static/Sports/cricket.png"
+              class="imgAnimate" id="cricket"> </a></div>
+        <div class="card_title title-white">
+          <div class="bottom">
+            Cricket
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 2">
+        <div class="card_image">
+          <a href="Sports\basketball.html"><img src="assets/static/Sports/basketball.png" class="imgAnimate"
+              id="basketball"></a>
+        </div>
+        <div class="card_title title-white">
+          <div class="bottom">
+
+            Basketball</div>
+
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 3">
+        <div class="card_image">
+          <a href="Sports\Badminton.html">
+            <img src="assets/static/Sports/badminton.png" class="imgAnimate" id="badminton"> </a>
+        </div>
+        <div class="card_title">
+          <div class="bottom">
+            Badminton </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 4">
+        <div class="card_image">
+          <a href="Sports\Chess.html"><img src="assets/static/Sports/chess.png" class="imgAnimate" id="chess"></a>
+        </div>
+        <div class="card_title title-black">
+          <div class="bottom">
+            Chess
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 cards-list">
+
+      <div class="col-1 col-sm-2 col-md-4 card 1">
+        <div class="card_image"> <a href="Sports\Football.html"><img src="assets/static/Sports/football.png"
+              class="imgAnimate" id="football"></a> </div>
+        <div class="card_title title-white">
+          <div class="bottom">
+            Football
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 2">
+        <div class="card_image">
+          <a href="Sports\Hockey.html"><img src="assets/static/Sports/hockey.png" class="imgAnimate" id="hockey"></a>
+        </div>
+        <div class="card_title title-white">
+          <div class="bottom">
+            Hockey
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 3">
+        <div class="card_image">
+          <a href="Sports\Lawntennis.html"><img src="assets/static/Sports/lawntennis.png" class="imgAnimate"
+              id="lawntennis"></a>
+        </div>
+        <div class="card_title">
+          <div class="bottom">
+            Lawntennis
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 4">
+        <div class="card_image">
+          <a href="Sports\mtb.html"><img src="assets/static/Sports/mountainbiking.png" class="imgAnimate"
+              id="mountainbiking"></a>
+        </div>
+        <div class="card_title title-black">
+          <div class="bottom">
+            Mountainbiking
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 cards-list">
+
+      <div class="col-1 col-sm-2 col-md-4 card 1">
+        <div class="card_image"> <a href="Sports\Tabletennis.html"><img src="assets/static/Sports/tabletennis.png"
+              class="imgAnimate" id="tabletennis"></a>
+        </div>
+        <div class="card_title title-white">
+          <div class="bottom">
+            Tabletennis
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 2">
+        <div class="card_image">
+          <a href="Sports\volleyball.html"> <img src="assets/static/Sports/volleyball.png" class="imgAnimate"
+              id="volleyball"> </a>
+        </div>
+        <div class="card_title title-white">
+          <div class="bottom">
+            Volleyball
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 3">
+        <div class="card_image">
+          <a href="Sports\Weightlifting.html"><img src="assets/static/Sports/weightlifting.png" class="imgAnimate"
+              id="weightlifting"></a>
+        </div>
+        <div class="card_title">
+          <div class="bottom">
+            Weightlifting
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 col-sm-2 col-md-4 card 4">
+        <div class="card_image">
+          <a href="Sports\Athletics.html"><img src="assets/static/Sports/athletics.png" class="imgAnimate"
+              id="athletics"></a>
+        </div>
+        <div class="card_title title-black">
+          <div class="bottom">
+            Athletics
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="events">
+    <div class="sports-heading">Events</div>
+    <br>
+    <div class="blog-card">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./assets/static/RannNeeti.png)"></div>
+        <ul class="details">
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Rann Neeti</h1>
+        <p> Rann-Neeti is the Annual Inter College Sports Fest of IIT Mandi organised by Student
+          Gymkhana of IIT Mandi. It is a three-day long event held every year in the month of September in which college
+          from states all over the nation participate</p>
+
+      </div>
+    </div>
+    <br>
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./assets/static/Aagaz.png)"></div>
+        <ul class="details">
+        </ul>
+      </div>
+      <div class="description">
+        <h1>AAGAZ</h1>
+        <p>Aagaz is the annual inter year sports tournament held every year in the spring semester to encourage the
+          spirit of sports among the students of IIT Mandi.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="blog-card">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./assets/static/KPL.png)"></div>
+        <ul class="details">
+        </ul>
+      </div>
+      <div class="description">
+        <h1>KPL</h1>
+        <p> Kamand Premier League is an auction based event open for all the students and the faculty of the
+          college. </p>
+
+      </div>
+    </div>
+    <br>
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./assets/static/Hostel_GC.png)"></div>
+        <ul class="details">
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Hostel GC</h1>
+        <p>
+          The Hostel General championship is an intra college event where the participants represent the hostel they
+          live in.
+        </p>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <div class="meta">
+        <div class="photo" style="background-image: url(./assets/static/InterIIT.png)"></div>
+        <ul class="details">
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Inter IIT</h1>
+        <p> Inter IIT Sports Meet is the annual sports tournament of the Indian Institutes of Technology. It is organized in December. It is the longest running Inter-collegiate meet where all IITs participate having been held since 1961. </p>
+
+      </div>
+    </div>
+
+  </section>
+  <div class="animated-title">
+    <div class="text-top">
+      <div>
+        <span style="text-shadow: 3px 3px 5px black;">Sports</span>
+      </div>
+    </div>
+    <div class="text-bottom">
+      <div style="text-shadow: 3px 3px 7px black;">IIT Mandi</div>
+    </div>
+  </div>
+  <a href="#about-us" id="Scroll=down">
+    <svg class="arrows">
+      <path class="a1" d="M0 0 L30 32 L60 0"></path>
+      <path class="a2" d="M0 20 L30 52 L60 20"></path>
+      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
+  </a>
+  <div class="container" id="council">
+    <div class="row">
+      <div class="sports-heading">Faculty Members</div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\RahulShresta_sir.png" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Dr. Rahul Shresta<br><span>Sports Advisor</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\Moumitadas_mam.png" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1> Dr. Moumita Das<br><span> Co - Advisor </span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\JhaSir.jpeg" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Dr. S.N. Jha<br><span>Senior Sports Officer
+                </span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\Kaulsir.jpeg" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Dr. Kaul Singh
+                <br><span>Sports Incharge at IIT Mandi
+                </span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <br>
+    <div class="sports-heading">Student Members</div>
+    <div class="row">
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\JPY - Jai Prakash Yadav.png" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Jai Prakash Yadav<br>
+                <br>
+                <span>Sports Secretary</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\PG_M.jpeg" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Sahil Sharma <br><span>Overall head, PG Men</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\PG_W.jpeg" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Niharika Batra
+                <br><span>Overall head, PG Women</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\UG_M.jpeg" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Animesh Choudhary <br><span>Overall head, UG Men</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card-council">
+          <div class="image">
+            <img src="assets\static\Coordi\UG_W.jpeg" />
+          </div>
+          <div class="details">
+            <div class="center">
+              <h1>Akansha Sinha<br><span>Overall head, UG Women</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+
+  </div>
+
+  <footer class="text-center text-lg-start text-white mt-4" style="background-color: #0c0c0c">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <a href="https://www.iitmandi.ac.in/"> <img src="assets\static\logo.png" alt=""
+                style="width: 100px;margin-right: 10%; filter: invert(100%);"> </a>
+            <div>
+              SCALING THE HEIGHTS
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold">Links</h4>
+            <p>
+              <a href="https://www.iitmandi.ac.in/" class="f-links">IIT MANDI</a>
+            </p>
+            <p>
+              <a href="https://students.iitmandi.ac.in/" class="f-links">Students</a>
+            </p>
+            <p>
+              <a href="https://gymkhana.iitmandi.co.in/contacts.html#sports" class="f-links">Contacts</a>
+            </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold">REACH US</h4>
+            <p><span class="fas fa-home mr-3"></i> IIT MANDI HP, INDIA -175005</span>
+            <p><span class="fas fa-envelope mr-3"></i> info@gmail.com</sapn>
+                <p><span class="fas fa-phone mr-3"></i> 01905-267267</span>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-4 pt-0">
+        <div class="row d-flex align-items-center">
+
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end footer-icon-social">
+            <!-- Facebook -->
+            <a class="  btn-floating m-1">
+
+              <i style="color: white;">SOCIAL MEDIA</i></a>
+
+
+            <a class="btn btn-outline-light btn-floating m-1"  role="button" href="https://www.facebook.com/iitmandisports/" ><i class="bi bi-facebook"></i></a>
+
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" role="button" href="https://instagram.com/sports_iitmandi?utm_medium=copy_link"><i class="bi bi-instagram"></i>
+            </a>
+          </div>
+          <!-- Grid column -->
+        </div>
+
+        <div style="margin: 10px;">
+          <h1 style="text-align: center; font-size: 15px; ">Developed By Sports Society</h1>
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="java.js"></script>
+
+</body>
+
+</html>
